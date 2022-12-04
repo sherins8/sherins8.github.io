@@ -1,0 +1,58 @@
+body{
+    background-color: #2C1114;
+    color: #EAE0D5;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    margin: 15px;
+    display: flex;
+}
+.endnav{
+  display: flex;
+  align-self: flex-end;
+}
+.nav-link{
+  color:#EAE0D5 !important;
+}
+.teams{
+  background-color: #C6AC8F;
+  height: fit-content;
+}
+.sponsorships{
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sponstitle{
+  text-align: center;
+  padding: 30px;
+  margin-top: 30px;
+}
+.nav-link:hover { 
+  color: #C6AC8F !important;
+  transition: 400ms;
+}
+ .akdtitle{
+    font-size: 50px !important;
+    text-align: center;
+    height: 400px;
+    margin-top: 300px;
+ }
+ footer{
+  margin-top: 50px;
+  text-align: center;
+ }
+ img{
+  max-height: 100%;
+ }
+ .sponsorships{
+  text-align: center;
+  margin-top: -20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+ }
+.currentColor{
+  fill: #EAE0D5;
+}
